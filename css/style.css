@@ -1,0 +1,28 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
+.header {
+    background-color: azure;
+    padding: 10px;
+}
+
+/* Container */
+.container {
+    background-color: gold;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo, .login {
+    padding: 0 10px;
+}
+
+
