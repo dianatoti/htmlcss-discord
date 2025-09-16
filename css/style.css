@@ -1,0 +1,169 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+/* Debug */
+.links ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.links a {
+    color: white;
+}
+
+/* Header */
+.header {
+    background-color: blue;
+    padding: 10px;
+}
+
+/* Container */
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .container {
+    background-color: blue;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+
+
+.login {
+    padding: 0 10px;
+    color: black;
+    background-color: white;
+    border-radius: 15px;
+    padding: 8px 15px;
+}
+
+/*Hero*/
+.hero {
+    background-color: blue;
+    padding: 30px 0;
+}
+
+.hero>.container {
+    background-color: rgb(252, 143, 252);
+    width: 700px;
+    height: 300px;
+}
+
+/*Text image section*/
+.flex {
+    background-color: white;
+    padding: 30px 0;
+}
+
+.flex>.container {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    min-height: 300px;
+
+}
+
+.azure-box {
+    background-color: rgb(109, 195, 246);
+    flex: 1;
+    min-height: 200px;
+}
+
+.pink-box {
+    background-color: pink;
+    width: 25%;
+    flex-shrink: 0;
+    min-height: 200px;
+}
+
+.flex-gray {
+    background-color: gainsboro;
+    padding: 30px 0;
+}
+
+.flex-gray>.container {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    min-height: 300px;
+    flex-direction: row-reverse;
+}
+
+/*CTA section*/
+.cta {
+    background-color: gainsboro;
+    padding: 30px 0;
+}
+
+.cta>.container {
+    justify-content: center;
+    align-items: center;
+}
+
+.green-box {
+    background-color: green;
+    width: 100%;
+    min-height: 500px;
+}
+
+/*Footer*/
+.footer {
+    background-color: rgb(47, 47, 47);
+    padding: 24px 0;
+}
+
+.footer>.container {
+    display: flex;
+    align-items: stretch;
+    gap: 2px;
+}
+
+.f-col {
+    flex: 1;
+    min-height: 160px;
+    background-color: rgb(7, 142, 129);
+    width: 80%;
+    min-height: 400px;
+}
+
+.f-wide {
+    flex: 1.2;
+    background-color: salmon;
+    width: 20%;
+    min-height: 400px;
+}
+
+/*Footer Bottom*/
+.footer-bottom {
+    padding: 10px 0;
+    margin-top: 2px;
+    background-color: rgb(47, 47, 47);
+}
+
+.footer-bottom>.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(143, 255, 221);
+    max-width: 1000px;
+    padding: 20px 0;
+
+}
+
+.f-logo,
+.bottom {
+    background-color: pink;
+    text-align: center;
+    padding: 5px 5px;
+}
