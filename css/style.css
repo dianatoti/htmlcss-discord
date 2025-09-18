@@ -49,12 +49,12 @@
 
 /*Hero*/
 .hero {
-    background-color: rgb(37,103,203);
+    background-color: rgb(37, 103, 203);
     background-image: url("../img/jumbo.png");
     background-size: cover;
 }
 
-.hero > .container {
+.hero>.container {
     max-width: 100%;
     padding: 0 24px;
     min-height: 620px;
@@ -63,6 +63,7 @@
     justify-content: center;
     text-align: center;
 }
+
 .hero-text {
     max-width: 800px;
     color: white;
@@ -96,57 +97,88 @@
 }
 
 .btn-white {
-background-color: white;
-color: black;
+    background-color: white;
+    color: black;
 }
 
 .btn-black {
-background-color: black;
-color: white;
+    background-color: black;
+    color: white;
 }
+
+
 /*Text image section*/
 .flex {
     background-color: white;
-    padding: 30px 0;
+    padding: 100px 0;
 }
 
 .flex>.container {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: stretch;
     min-height: 300px;
-
+    gap: 40px;
 }
 
 .azure-box {
-    background-color: rgb(109, 195, 246);
-    flex: 1;
-    min-height: 200px;
+    flex: 1.2;
+    min-height: 300px;
+}
+
+.azure-box img {
+    width: 100%;
+    display: block;
 }
 
 .pink-box {
-    background-color: pink;
-    width: 25%;
-    flex-shrink: 0;
-    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    flex: 1;
+}
+
+.pink-box h2 {
+    font-size: 48px;
+    font-weight: 700;
+    max-width: 320px;
+    margin-bottom: 30px;
+}
+
+.pink-box p {
+    font-size: 18px;
+    max-width: 400px;
 }
 
 .flex-gray {
-    background-color: gainsboro;
-    padding: 30px 0;
+    background-color: #d5d3d3;
+    padding: 100px 0;
 }
 
 .flex-gray>.container {
     display: flex;
-    justify-content: center;
+    background-color: rgb(213, 211, 211);
+    justify-content: space-between;
     align-items: stretch;
+    gap: 40px;
     min-height: 300px;
     flex-direction: row-reverse;
 }
 
+.wave {
+    display: block;
+    width: 100%;
+}
+
+.wave-down {
+    transform: rotate(180deg);
+    width: 100%;
+    display: block;
+}
 /*CTA section*/
 .cta {
-    background-color: gainsboro;
+    background-color: rgb(213, 211, 211);
     padding: 30px 0;
 }
 
