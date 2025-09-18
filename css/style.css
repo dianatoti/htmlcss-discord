@@ -231,6 +231,7 @@
     background-color: #2f2f2f;
     padding: 60px 0 40px;
     color: white;
+    margin-bottom: 0;
 }
 
 
@@ -286,15 +287,14 @@
 }
 
 .f-col div {
-font-size: 14px;
-margin-bottom: 8px;
+    font-size: 14px;
+    margin-bottom: 8px;
 
 }
 
 /*Footer Bottom*/
 .footer-bottom {
-    padding: 10px 0;
-    margin-top: 2px;
+    padding: 20px 0;
     background-color: rgb(47, 47, 47);
 }
 
@@ -302,15 +302,27 @@ margin-bottom: 8px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(143, 255, 221);
     max-width: 1000px;
-    padding: 20px 0;
-
+    padding-top: 20px;
+    border-top: 1px solid #5865f2;
 }
 
-.f-logo,
+.f-logo {
+    display: flex;
+    align-items: center;
+}
+
+.f-logo img {
+    height: 24px;
+    width: auto;
+}
+
 .bottom {
-    background-color: pink;
-    text-align: center;
-    padding: 5px 5px;
+    display: inline-block;
+    background-color: #5865f2;
+    color: white;
+    padding: 8px 16px;
+    font-size: 14px;
+    font-weight: 600px;
+    border-radius: 20px;
 }
